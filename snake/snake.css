@@ -1,0 +1,113 @@
+body{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #4a752c;   
+     
+}
+#title{
+    direction: rtl;
+    width: 35*30;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+.success{
+    display: flex;
+    flex-direction: row;
+    margin:  20%;
+    margin-bottom: 0;
+    text-align: center;
+}
+.success img{
+    width: 40px;
+    height: 40px;
+    padding: 10%;
+}
+.success p{
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: large;
+padding: 10%;
+}
+#speed img{
+    width: 60px;
+}
+#gameCanvas{
+    display: grid;
+    grid-template-columns: repeat(28, 35px);
+    grid-template-rows: repeat(16, 35px);
+    border: #578a34 solid 20px;
+    position: relative;
+
+}
+.cell {
+    width: 35px;
+    height: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.cell_1{
+    background-color: #a3ce4b;
+}
+
+.cell_2 {
+    background-color: #aad257;
+}
+
+.food {
+    width: 60px;
+    align-items: center;
+    z-index: 1;
+}
+.snake{
+    background-image: url(img/snake.png);
+    background-size:cover;
+    width: 100%;    /* מתאם את התמונה לרוחב התא */
+    height: 100%;   /* מתאם את התמונה לגובה התא */
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/* דף פתיחה ומשחק חוזר */
+#body-indx{
+background-color: aliceblue;
+}
+#indx{
+    background-image: url(img/background_open.png);
+    width: 1000px;height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#data{
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#data .success{
+    flex-direction: column;
+    margin: 80%;
+    align-items: center;
+}
+#data .success img{
+    width: 60px;
+    height: 60px;
+}
+#onclick{
+    margin-top: 25%;
+    width: 60px;
+}
