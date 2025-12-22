@@ -1,5 +1,7 @@
 # Snake Game (JavaScript)
 
+![Snake Game Demo](gif.gif)
+
 A classic Snake game implemented using vanilla JavaScript, HTML, and CSS.
 
 The project focuses on core game logic, user interaction, and basic game flow,
