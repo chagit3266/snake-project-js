@@ -1,6 +1,6 @@
 # Snake Game (JavaScript)
 
-![Snake Game Demo](gif.gif)
+![Snake Game Demo](img/gif.gif)
 
 A classic Snake game implemented using vanilla JavaScript, HTML, and CSS.
 
